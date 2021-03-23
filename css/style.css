@@ -1,0 +1,234 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/open-sans-v18-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/open-sans-v18-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v18-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+}
+.header {
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.items {
+  display: flex;
+  align-items: center;
+}
+.nav-item:not(:last-child) {
+  margin-right: 32px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+.btn {
+  background-color: #00bafc;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.btn .nav-link {
+  color: #fff;
+}
+.next-level {
+  padding: 80px 100px;
+}
+.next-level-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-text {
+  width: 470px;
+  margin-right: 50px;
+}
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+.next-text {
+  margin-bottom: 24px;
+}
+.services {
+  padding: 56px 100px;
+}
+.top-all{
+    text-align: center;
+}
+.top-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+.top-all p{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.services-cards-top{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services-cards-bottom{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    padding: 24px 58px;
+    margin-right: 70px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.medium-title{
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+.services-links{
+    margin-top: 47px;
+    text-align: center;
+}
+.services-link{
+    margin-left: 16px;
+    color: #00BAFC;
+}
+.how-work {
+    padding: 56px 234px;
+}
+.large-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 832px;
+    margin-top: 24px;
+}
+.large-cards:not(:last-child){
+    margin-bottom: 48px;
+}
+
+.work{
+    text-align: left;
+    margin-bottom: 8px;
+}
+.right img{
+    margin-right: 32px;
+}
+.left img{
+    order: 1;
+    margin-left: 32px;
+}
+.order{
+    padding: 56px 290px;
+    background-color: #00BAFC;
+}
+.order .top-all{
+    color: #fff;
+}
+.order-form{
+    width: 348px;
+    margin: auto;
+    margin-top: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.order-input{
+    height: 24px;
+    border: none;
+    margin-bottom: 16px;
+    padding: 16px;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #000000;
+}
+.order-select{
+    height: 56px;
+    margin-bottom: 16px;
+    border: none;
+    padding: 16px;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+}
+.page-footer{
+    padding: 56px 100px;
+    background-color: #191919;
+}
+.footer-content{
+    display: flex;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.about{
+    width: 320px;
+    margin-right: 100px;
+}
+.about-text{
+    color: #fff;
+}
+.footer-links{
+    text-decoration: none;
+    color: #fff;
+}
+.site-pages{
+    margin-right: 87px;
+}
+.footer-items:not(:last-child){
+    margin-bottom: 8px;
+}
+.footer-items{
+    vertical-align: middle;
+}
+.social{
+    margin-right: 8px;
+}
