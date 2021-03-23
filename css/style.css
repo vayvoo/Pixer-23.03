@@ -140,9 +140,12 @@ body {
 .large-cards{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 832px;
+    margin: auto;
     margin-top: 24px;
+}
+.left{
+  justify-content: space-between;
 }
 .large-cards:not(:last-child){
     margin-bottom: 48px;
