@@ -142,7 +142,6 @@ body {
     align-items: center;
     width: 832px;
     margin: auto;
-    margin-top: 24px;
 }
 .left{
   justify-content: space-between;
@@ -150,7 +149,9 @@ body {
 .large-cards:not(:last-child){
     margin-bottom: 48px;
 }
-
+.text-under{
+  margin-bottom: 24px;
+}
 .work{
     text-align: left;
     margin-bottom: 8px;
@@ -197,6 +198,14 @@ body {
     padding: 16px;
     background-color: #F3F3F3;
     border-radius: 5px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Some browsers will not display the caret when using calc, so we put the fallback first */ 
+    background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-16.png") #F3F3F3 no-repeat 98.5% !important ; /* !important used for overriding all other customisations */
+    background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-16.png") #F3F3F3 no-repeat calc(100% - 10px) !important; /* Better placement regardless of input width */
 }
 .page-footer{
     padding: 56px 100px;
